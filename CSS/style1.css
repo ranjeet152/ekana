@@ -1,0 +1,850 @@
+.top-bar {
+    background-color: #333;
+    color: #fff;
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-bar i {
+    font-size: 1.2rem;
+}
+
+.counter {
+    background-image: url('image/46.jpeg');
+    text-align: center;
+}
+
+.employees,
+.customer,
+.design,
+.order {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.counter-count {
+    font-size: 18px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.employee-p,
+.customer-p,
+.order-p,
+.design-p {
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+@media (min-width: 1024px) {
+    .col-lg-7 {
+        flex: 0 4 auto;
+        width: 40 .333333%;
+    }
+}
+
+.h-100 {
+    height: 98% !important;
+}
+
+.p-3 {
+    padding: 0.25rem !important;
+}
+
+.bg-footer {
+    background-color: #33383c;
+    padding: 50px 0 30px;
+}
+
+.footer-heading {
+    letter-spacing: 2px;
+}
+
+.footer-link a {
+    color: #acacac;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.footer-link a:hover {
+    color: #1bbc9b;
+}
+
+.contact-info {
+    color: #acacac;
+    font-size: 14px;
+}
+
+.footer-social-icon {
+    font-size: 15px;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.facebook {
+    background-color: #4e71a8;
+    color: #ffffff;
+}
+
+.twitter {
+    background-color: #55acee;
+    color: #ffffff;
+}
+
+.google {
+    background-color: #d6492f;
+    color: #ffffff;
+}
+
+.apple {
+    background-color: #424041;
+    color: #ffffff;
+}
+
+.footer-alt {
+    color: #acacac;
+}
+
+.footer-heading {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-heading:after {
+    content: '';
+    width: 25px;
+    border-bottom: 1px solid #FFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 1px solid #1bbc9b;
+}
+
+.footer {
+    background-color: #2c2f33;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    color: #f1f1f1;
+    font-size: 18px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.footer a {
+    color: #bfbfbf;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer .social-icons a {
+    font-size: 24px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a.facebook {
+    color: #3b5998;
+}
+
+.social-icons a.whatsapp {
+    color: #25D366;
+}
+
+.social-icons a.linkedin {
+    color: #0077b5;
+}
+
+.social-icons a.instagram {
+    color: #e4405f;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+.footer .logo img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer .row {
+        text-align: center;
+    }
+
+    .footer .col-md-3 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer .logo img {
+        max-width: 70px;
+        /* Adjust image size for smaller screens */
+    }
+
+    .footer h5 {
+        font-size: 16px;
+    }
+
+    .footer p,
+    .footer a {
+        font-size: 13px;
+    }
+}
+
+.card-container {
+    width: 100%;
+    max-width: 97%;
+    /* Set max width for the card */
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    /* Animation on hover */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Slightly scale on hover */
+}
+
+/* Image responsive styling */
+.card-img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease;
+    /* Fade-in animation */
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: -40px;
+    position: absolute;
+}
+
+.carousel-control-prev {
+    left: 15px;
+}
+
+.carousel-control-next {
+    right: 15px;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.news-item {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+.news-item img {
+    width: 400px;
+    height: 400px;
+    background-color: #ccc;
+}
+
+.news-item h5 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.news-item p {
+    font-size: 14px;
+}
+
+span {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #0062cc;
+
+}
+
+.box {
+    padding: 60px 0px;
+}
+
+.box-part {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0;
+    padding: 60px 10px;
+    margin: 30px 0px;
+}
+
+.text {
+    margin: 20px 0px;
+}
+
+.fa {
+    color: #4183D7;
+}
+
+.side-banner-left,
+.side-banner-right {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.side-banner-left {
+    left: 0;
+}
+
+.side-banner-right {
+    right: 0;
+}
+
+.vertical-text-left,
+.vertical-text-right {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: white;
+    min-height: 40px;
+    background-color: #dc3545;
+    /* Adjust colors as needed */
+    padding: 0.5rem 0.6rem;
+    text-align: center;
+}
+
+.card-container-imgg {
+    padding: 20px;
+}
+
+.card-imgg {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    /* Rounded corners */
+    background-color: #ffffff;
+    /* White background */
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.card-imgg:hover {
+    transform: translateY(-10px);
+    /* Slight lift on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+    /* Rounded corners only at the top */
+}
+
+.card-body-imgg h5 {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-body p {
+    color: #666;
+}
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about h3 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about .fst-italic {
+    color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    padding: 0 0 10px 30px;
+    position: relative;
+}
+
+.about .content ul i {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: -3px;
+    color: var(--accent-color);
+}
+
+.about .content p:last-child {
+    margin-bottom: 0;
+}
+
+.about .pulsating-play-btn {
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+}
+
+/*--------------------------------------------------------------
+# Blog Posts Section
+--------------------------------------------------------------*/
+.blog-posts article {
+    background-color: var(--surface-color);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blog-posts .post-img {
+    max-height: 240px;
+    margin: -30px -30px 15px -30px;
+    overflow: hidden;
+}
+
+.blog-posts .post-category {
+    font-size: 16px;
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    margin-bottom: 10px;
+}
+
+.blog-posts .title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.blog-posts .title a {
+    color: var(--heading-color);
+    transition: 0.3s;
+}
+
+.blog-posts .title a:hover {
+    color: var(--accent-color);
+}
+
+.blog-posts .post-author-img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.blog-posts .post-author {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.blog-posts .post-date {
+    font-size: 14px;
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    margin-bottom: 0;
+}
+
+/* Adding subtle shadow and padding to the text */
+.card-body-imgg {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* counter start */
+
+
+.team-section {
+    background-image: url(../image/46.jpeg);
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 400px;
+    /* Set minimum height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.team-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Dark overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.team-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* Space between items */
+    flex-wrap: wrap;
+    /* Wrap items on smaller screens */
+}
+
+.team-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.team-item p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* counter end  */
+
+
+/*--------------------------------------------------------------
+# Scroll Top Button
+--------------------------------------------------------------*/
+.scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: -15px;
+    z-index: 99999;
+    background-color:rgb(136, 9, 47);
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.scroll-top i {
+    font-size: 24px;
+    color: #000;
+    line-height: 0;
+}
+
+.scroll-top i:hover {
+    color: black;
+}
+
+.scroll-top:hover {
+    background-color: white;
+    color: var(--contrast-color);
+}
+
+.scroll-top.active {
+    visibility: visible;
+    opacity: 1;
+    bottom: 15px;
+}
+
+/* topbar css */
+.top-bar {
+    background-color: #1a1a1a;
+    /* Dark background */
+    color: white;
+    padding: 15px 0;
+    font-size: 0.9rem;
+
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.top-bar .social-icons i {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+/* topbar end */
+
+
+/* our traning programs start */
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #1b1a1a;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+/* our traning programs end */
+.hover-move img {
+    transition: transform 1s ease;
+
+
+}
+
+.hover-move:hover img {
+    transform: translateY(-35px);
+    animation-iteration-count: infinite;
+}
+
+/* @keyframes move-up-down 
+{ 0% { transform: translateY(0); }
+ 50% { transform: translateY(-10px); }
+ 100% { transform: translateY(0); } 
+}
+ .hover-move img
+  { 
+    animation: move-up-down 1s infinite;
+ } */
+
+.about-us-section {
+    position: relative;
+    color: white;
+    text-align: center;
+    background-image: url('../image/46.jpeg');
+    background-size: 100%;
+    /* Replace with your image path */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    height: 400px;
+    /* position: relative; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(110 32 32 / 50%);
+    /* Dark overlay */
+    z-index: 1;
+}
+
+.about-us-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hero {
+    background: #721a1a;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content-section {
+    padding: 50px 0;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.popular-courses img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.card h5 {
+    color: #ff9800;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+}
+
+.card2 {
+    position: relative;
+    margin-top: 20px;
+    /* Remove margin-left to center cards in a responsive grid */
+}
+
+.card2 img {
+    height: 250px;
+    width: 100%;
+    transition: 0.5s;
+
+}
+
+.child-div p {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.child-div {
+    height: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.card2:hover .child-div {
+    height: 100%;
+}
+
+.info-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: auto;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.info-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media (higth: 500px) {
+    .logo {
+        height: 20px;
+    }
+
+    .info-text {
+        font-size: 20px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# contact or Maps
+--------------------------------------------------------------*/
+
+.contact-container {
+    background-color: #e4d4d1;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+
+@media (max-width:576px) {
+    .img1{
+            display: none;
+    }
+}
