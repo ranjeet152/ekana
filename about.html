@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ekana Website By Anup Sir</title>
+    <title>Ekana Website</title>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -18,7 +18,6 @@
         integrity="sha384-ARRzqgHDBP0PQzxQoJtvyNn7Q8QQYr0XT+RXUFEPkQqkTB6gi43ZiL035dKWdkZe" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/boosted@5.0.2/dist/css/boosted.min.css" rel="stylesheet"
         integrity="sha384-6VTsNhIHFxNglfMLfhvvJFxXZbdvT1UXhm7+wVMAda9c+2NIFu4zmlKKz/bJthi/" crossorigin="anonymous">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> -->
     <link rel="stylesheet" href="CSS/style1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -35,7 +34,7 @@
             <div class="row text-center">
                 <!-- Contact Number -->
                 <div class="col-sm-2 mb-2 mb-lg-0">
-                    <i class="bi bi-telephone"></i> +91 9198483820
+                    <i class="bi bi-telephone"></i> +91 956 554 8531
                 </div>
                 <!-- Brochure Links -->
                 <div class="col-sm-8 mb-2 mb-lg-0">
@@ -56,6 +55,30 @@
             </div>
         </div>
     </div>
+
+
+    <!-- =============================================================== -->
+    <div class="toggle-container">
+        <button id="toggleButton">
+            <span id="icon">🌞</span>
+        </button>
+    </div>
+    <script>
+        const toggleButton = document.getElementById("toggleButton");
+        const icon = document.getElementById("icon");
+
+        toggleButton.addEventListener("click", () => {
+            document.body.classList.toggle("night");
+
+            if (document.body.classList.contains("night")) {
+                icon.textContent = "🌙";
+            } else {
+                icon.textContent = "🌞";
+            }
+        });
+    </script>
+
+    <!-- ============================================================================ -->
 
     <!-- navbar start bootom navbar -->
     <nav class="navbar navbar-expand-lg bg-gray navbar-light  p-2 fw-bold text-dark">
@@ -104,7 +127,7 @@
     </nav>
 
     <!-- end nav bar -->
-     
+
     <!-- About Page top section start -->
     <section class="about-us-section">
         <div class="about-us-overlay"></div>
@@ -333,7 +356,6 @@
                     <img src="image/1.jpg" class="card-img-top" alt="Best Industry Trainers">
                     <div class="card-body-imgg text-center">
                         <h5 class="card-title">Best Industry Trainers</h5>
-                        <!-- <p class="card-text">Your success is our mission, and we are dedicated to helping you reach your goals.</p> -->
                     </div>
                 </div>
             </div>
@@ -343,7 +365,6 @@
                     <img src="image/1.jpg" class="card-img-top" alt="Learn Skills in Classroom">
                     <div class="card-body text-center">
                         <h5 class="card-title">Learn Skills in Classroom</h5>
-                        <!-- <p class="card-text">Your success is our mission, and we are dedicated to helping you reach your goals.</p> -->
                     </div>
                 </div>
             </div>
@@ -353,7 +374,6 @@
                     <img src="image/1.jpg" class="card-img-top" alt="Lifetime Support">
                     <div class="card-body text-center">
                         <h5 class="card-title">Lifetime Support</h5>
-                        <!-- <p class="card-text">Your success is our mission, and we are dedicated to helping you reach your goals.</p> -->
                     </div>
                 </div>
             </div>
@@ -389,140 +409,140 @@
     </div>
     <!-- counter end -->
 
-        <!-- student review -->
-        <div class="container">
-            <div id="newsCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="2000">
-                <h2 class="text-center"><b>WHAT STUDENTS SAY</b></h2>
-                <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
-    
-    
-                <div class="carousel-inner ">
-                    <!-- First Slide -->
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="news-item">
-                                    <img src="images/1.jpg" alt="Placeholder" class="img-fluid" style="height: auto;">
-                                    <h5>Lorem Ipsum</h5>
-                                    <p class="small">Date</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula auctor
-                                        felis.</p>
-    
-                                </div>
+    <!-- student review -->
+    <div class="container">
+        <div id="newsCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="2000">
+            <h2 class="text-center"><b>WHAT STUDENTS SAY</b></h2>
+            <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+
+
+            <div class="carousel-inner ">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="news-item">
+                                <img src="images/1.jpg" alt="Placeholder" class="img-fluid" style="height: auto;">
+                                <h5>Lorem Ipsum</h5>
+                                <p class="small">Date</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula auctor
+                                    felis.</p>
+
                             </div>
-                            <div class="col-md-4 img1">
-                                <div class="news-item">
-                                    <img src="images/2.jpg" alt="Placeholder" class="img-fluid" style="height: auto;">
-                                    <h5>Lorem Ipsum</h5>
-                                    <p class="small">Date</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula auctor
-                                        felis.</p>
-    
-                                </div>
+                        </div>
+                        <div class="col-md-4 img1">
+                            <div class="news-item">
+                                <img src="images/2.jpg" alt="Placeholder" class="img-fluid" style="height: auto;">
+                                <h5>Lorem Ipsum</h5>
+                                <p class="small">Date</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula auctor
+                                    felis.</p>
+
                             </div>
-                            <div class="col-md-4 img1">
-                                <div class="news-item">
-                                    <img src="images/3.jpg" alt="Placeholder" class="img-fluid" style="height: auto;">
-                                    <h5>Lorem Ipsum</h5>
-                                    <p class="small">Date</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula auctor
-                                        felis.</p>
-                                </div>
+                        </div>
+                        <div class="col-md-4 img1">
+                            <div class="news-item">
+                                <img src="images/3.jpg" alt="Placeholder" class="img-fluid" style="height: auto;">
+                                <h5>Lorem Ipsum</h5>
+                                <p class="small">Date</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula auctor
+                                    felis.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Second Slide -->
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="news-item">
-                                    <img src="images/4.jpg" alt="Placeholder" class="img-fluid" style="height: auto;">
-                                    <h5>Lorem Ipsum</h5>
-                                    <p class="small">Date</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula auctor
-                                        felis.</p>
-    
-                                </div>
+                </div>
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="news-item">
+                                <img src="images/4.jpg" alt="Placeholder" class="img-fluid" style="height: auto;">
+                                <h5>Lorem Ipsum</h5>
+                                <p class="small">Date</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula auctor
+                                    felis.</p>
+
                             </div>
-                            <div class="col-md-4 img1">
-                                <div class="news-item">
-                                    <img src="images/5.jpg" alt="Placeholder" class="img-fluid" style="height: auto;">
-                                    <h5>Lorem Ipsum</h5>
-                                    <p class="small">Date</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula auctor
-                                        felis.</p>
-    
-                                </div>
+                        </div>
+                        <div class="col-md-4 img1">
+                            <div class="news-item">
+                                <img src="images/5.jpg" alt="Placeholder" class="img-fluid" style="height: auto;">
+                                <h5>Lorem Ipsum</h5>
+                                <p class="small">Date</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula auctor
+                                    felis.</p>
+
                             </div>
-                            <div class="col-md-4 img1">
-                                <div class="news-item">
-                                    <img src="images/6.jpg" alt="Placeholder" class="img-fluid" style="height: auto;">
-                                    <h5>Lorem Ipsum</h5>
-                                    <p class="small">Date</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula auctor
-                                        felis.</p>
-    
-                                </div>
+                        </div>
+                        <div class="col-md-4 img1">
+                            <div class="news-item">
+                                <img src="images/6.jpg" alt="Placeholder" class="img-fluid" style="height: auto;">
+                                <h5>Lorem Ipsum</h5>
+                                <p class="small">Date</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula auctor
+                                    felis.</p>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
-    
-        <!-- our plcaement recent end -->
-    
-    
-        <!-- Ekana Information page start  -->
-        <div class="info-logo mt-3">
-            <a href="index.html">
-                <img src="image/Ekana Logo (2).png" alt="" class="logo" />
-            </a>
-            <span class="info-text">INFORMATION</span>
-    
-        </div>
-        <hr class="w-50 mx-auto mb-3 mb-xl-9 border-dark-subtle">
-    
-        <div class="container">
-            <div class="row align-items-center">
-                <!-- Text Section -->
-                <div class="col-md-7">
-                    <p>At Ekana Technology, we pride ourselves on our ability to deliver
-                        high-quality courses tailored to the needs of both professionals and beginners alike. With a strong
-                        focus on flexibility and adaptability, our training programs are designed to accommodate the unique
-                        learning requirements of each individual. Our comprehensive Training Course services encompass
-                        Vocational Training, Summer Training, Industrial Training, Apprenticeship Training, Internship
-                        Training, and Project Training.
-                    </p>
-                    <p>
-                        Whether you're a student looking to bolster your resume, a working
-                        professional seeking to upskill, or an entrepreneur aiming to expand your knowledge, our diverse
-                        course offerings cater to all. What sets us apart is our team of experienced instructors who bring
-                        real-world industry expertise to the classroom. Passionate about sharing their knowledge, our
-                        instructors provide individual attention and guidance, ensuring that every student grasps the
-                        subject matter thoroughly. </p>
-                </div>
-    
-                <!-- Video Section -->
-                <div class="col-md-5 mb-5">
-                    <h3 style="font-weight: bold;"> SUMMER TRAINING & APPRENTICESHIP</h3>
-                    <hr class="w-90 mx-auto mb-2 mb-xl-9 border-dark-subtle">
-                    <div class="ratio ratio-16x9">
-    
-                        <iframe width="1400" src="https://www.youtube.com/embed/A9b0K-RKHtc"
-                            title="Student  Feedback  Batch-2024  Ekana Technologies Pvt Ltd Lucknow" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" class="img-fluid" allowfullscreen
-                            style="height: 300px;">
-                        </iframe>
-                    </div>
+    </div>
+
+
+    <!-- our plcaement recent end -->
+
+
+    <!-- Ekana Information page start  -->
+    <div class="info-logo mt-3">
+        <a href="index.html">
+            <img src="image/Ekana Logo (2).png" alt="" class="logo" />
+        </a>
+        <span class="info-text">INFORMATION</span>
+
+    </div>
+    <hr class="w-50 mx-auto mb-3 mb-xl-9 border-dark-subtle">
+
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Text Section -->
+            <div class="col-md-7">
+                <p>At Ekana Technology, we pride ourselves on our ability to deliver
+                    high-quality courses tailored to the needs of both professionals and beginners alike. With a strong
+                    focus on flexibility and adaptability, our training programs are designed to accommodate the unique
+                    learning requirements of each individual. Our comprehensive Training Course services encompass
+                    Vocational Training, Summer Training, Industrial Training, Apprenticeship Training, Internship
+                    Training, and Project Training.
+                </p>
+                <p>
+                    Whether you're a student looking to bolster your resume, a working
+                    professional seeking to upskill, or an entrepreneur aiming to expand your knowledge, our diverse
+                    course offerings cater to all. What sets us apart is our team of experienced instructors who bring
+                    real-world industry expertise to the classroom. Passionate about sharing their knowledge, our
+                    instructors provide individual attention and guidance, ensuring that every student grasps the
+                    subject matter thoroughly. </p>
+            </div>
+
+            <!-- Video Section -->
+            <div class="col-md-5 mb-5">
+                <h3 style="font-weight: bold;"> SUMMER TRAINING & APPRENTICESHIP</h3>
+                <hr class="w-90 mx-auto mb-2 mb-xl-9 border-dark-subtle">
+                <div class="ratio ratio-16x9">
+
+                    <iframe width="1400" src="https://www.youtube.com/embed/A9b0K-RKHtc"
+                        title="Student  Feedback  Batch-2024  Ekana Technologies Pvt Ltd Lucknow" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" class="img-fluid" allowfullscreen
+                        style="height: 300px;">
+                    </iframe>
                 </div>
             </div>
         </div>
-    
-        <!-- Ekana Inaformation page End -->
-    
+    </div>
+
+    <!-- Ekana Inaformation page End -->
+
 
     <!-- Footer Page Start -->
 
@@ -564,8 +584,9 @@
                 <div class="col-md-3">
                     <h5>Contact Us</h5>
                     <p>Contact us if you need help with anything</p>
-                    <p>Ashirwad Plaza, 16/278/2, 2nd floor, Sector 16, Indira Nagar, Lucknow, Uttar Pradesh 206016</p>
-                    <p>Email: <a href="mailto:info@ekanatechnologies.com">info@ekanatechnologies.com</a></p>
+                    <p>Munshipulia Metro Station, 16/286, Mandi Road, Sector 17, Sector 16, Indira Nagar, Lucknow, Uttar
+                        Pradesh 206016</p>
+                    <p>Email: <a href="mailto:info@gmail.com">info@gmail.com</a></p>
                     <!-- Social Icons -->
                     <div class="social-icons d-flex justify-content-center justify-content-md-start">
                         <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
@@ -579,7 +600,7 @@
         </div>
     </footer>
     <div class="text-center  bg-dark p-4">
-        <p class="footer-alt mb-0 f-14" style="color: white;">2024 © Ekana Technologies, All Rights Reserved</p>
+        <p class="footer-alt mb-0 f-14" style="color: white;">2024 © Ranjeet Yaduvanshi, All Rights Reserved</p>
     </div>
 
 
@@ -600,7 +621,6 @@
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <!-- <h4 class="modal-title">Modal Heading</h4> -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
 
@@ -610,10 +630,6 @@
                 </div>
 
                 <!-- Modal footer -->
-
-                <!-- <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-        </div> -->
 
             </div>
         </div>
@@ -661,9 +677,6 @@
         document.addEventListener('scroll', toggleScrollTop);
 
     </script>
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 

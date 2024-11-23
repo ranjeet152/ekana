@@ -1,3 +1,47 @@
+/* Default Day (Light) Mode */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+header, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Fixed position for the toggle button */
+.toggle-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+ 
+body.night {
+    background-color: #484646;
+    color: white;
+}
+
+
+/* ===================================== */
+
+
 .top-bar {
     background-color: #333;
     color: #fff;
@@ -66,80 +110,6 @@
     padding: 0.25rem !important;
 }
 
-.bg-footer {
-    background-color: #33383c;
-    padding: 50px 0 30px;
-}
-
-.footer-heading {
-    letter-spacing: 2px;
-}
-
-.footer-link a {
-    color: #acacac;
-    line-height: 40px;
-    font-size: 14px;
-    transition: all 0.5s;
-}
-
-.footer-link a:hover {
-    color: #1bbc9b;
-}
-
-.contact-info {
-    color: #acacac;
-    font-size: 14px;
-}
-
-.footer-social-icon {
-    font-size: 15px;
-    height: 34px;
-    width: 34px;
-    line-height: 34px;
-    border-radius: 3px;
-    text-align: center;
-    display: inline-block;
-}
-
-.facebook {
-    background-color: #4e71a8;
-    color: #ffffff;
-}
-
-.twitter {
-    background-color: #55acee;
-    color: #ffffff;
-}
-
-.google {
-    background-color: #d6492f;
-    color: #ffffff;
-}
-
-.apple {
-    background-color: #424041;
-    color: #ffffff;
-}
-
-.footer-alt {
-    color: #acacac;
-}
-
-.footer-heading {
-    position: relative;
-    padding-bottom: 12px;
-}
-
-.footer-heading:after {
-    content: '';
-    width: 25px;
-    border-bottom: 1px solid #FFF;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    display: block;
-    border-bottom: 1px solid #1bbc9b;
-}
 
 .footer {
     background-color: #2c2f33;
@@ -169,8 +139,8 @@
 }
 
 .footer .social-icons a {
-    font-size: 24px;
-    margin-right: 10px;
+    font-size: 40px;
+    margin-right: 30px;
     transition: transform 0.3s ease;
 }
 
@@ -230,7 +200,6 @@
 .card-container {
     width: 100%;
     max-width: 97%;
-    /* Set max width for the card */
     margin: auto;
     padding: 20px;
 }
@@ -244,7 +213,8 @@
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(2.05);
+    height: auto;
     /* Slightly scale on hover */
 }
 
